@@ -35,7 +35,7 @@ const client = new Client({
     database: 'mydb',
 
     // Key parameter [required]
-    databaseType: 'openGauss'  // Options: 'openGauss' | 'postgre' (Default: 'openGauss')
+    databaseType: 'openGauss'  // Options: 'openGauss' | 'postgre' | 'pg' (Default: 'openGauss')
 });
 ```
 
