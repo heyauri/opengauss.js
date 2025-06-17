@@ -46,7 +46,7 @@ Seamless replacement via npm alias:
 {
     ...,
     "dependencies": {
-        "pg": "npm:opengauss.js@^1.0.0"
+        "pg": "npm:opengauss.js@^1.1.0"
     }
 }
 ```
@@ -59,7 +59,8 @@ const knex = require('knex')({
     databaseType: 'openGauss',  // Specify database type
     // ...other standard pg configurations
     host: '127.0.0.1',
-  }
+  },
+  version: "9.2"
 });
 ```
 
