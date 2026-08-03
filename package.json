@@ -1,6 +1,6 @@
 {
   "name": "opengauss.js",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Non-blocking OpenGauss/PostgreSQL client for Node.js with pure JavaScript implementation",
   "main": "./lib",
   "scripts": {
